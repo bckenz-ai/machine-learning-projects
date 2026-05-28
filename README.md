@@ -12,6 +12,7 @@ A collection of applied machine learning notebooks produced as coursework for B.
 Compares bagging (Random Forest) against boosting algorithms (AdaBoost, Gradient Boosting) on a financial classification task. Demonstrates that tree-based ensembles outperform traditional econometric approaches like Logistic Regression by capturing non-linear feature interactions, achieving over 86% accuracy. Analyzes how boosting models disproportionately focus on high-signal financial indicators (e.g., capital gains) through iterative error correction, rather than distributing weight across general demographic traits.
 
 **Methods:** Random Forest, AdaBoost, Gradient Boosting, Logistic Regression
+
 **Key result:** Boosting ensembles exceed 86% accuracy; outperform linear baselines on non-linear financial data
 
 ---
