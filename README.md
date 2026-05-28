@@ -12,7 +12,6 @@ A collection of applied machine learning notebooks produced as coursework for B.
 Compares bagging (Random Forest) against boosting algorithms (AdaBoost, Gradient Boosting) on a financial classification task. Demonstrates that tree-based ensembles outperform traditional econometric approaches like Logistic Regression by capturing non-linear feature interactions, achieving over 86% accuracy. Analyzes how boosting models disproportionately focus on high-signal financial indicators (e.g., capital gains) through iterative error correction, rather than distributing weight across general demographic traits.
 
 **Methods:** Random Forest, AdaBoost, Gradient Boosting, Logistic Regression
-
 **Key result:** Boosting ensembles exceed 86% accuracy; outperform linear baselines on non-linear financial data
 
 ---
@@ -23,7 +22,9 @@ Compares bagging (Random Forest) against boosting algorithms (AdaBoost, Gradient
 Applies PCA, t-SNE, and UMAP to the Countries of the World 2023 dataset, analyzing development indicators including GDP, Birth Rate, and Infant Mortality. Evaluates the interpretability and visualization trade-offs of each technique. Concludes that PCA is best suited for explanation and reporting due to its linear, interpretable components, while t-SNE and UMAP are superior for discovering clusters and handling complex, non-linear, or overlapping data structures.
 
 **Methods:** PCA, t-SNE, UMAP
+
 **Dataset:** Countries of the World 2023
+
 **Key result:** PCA favored for reporting; t-SNE and UMAP favored for cluster discovery and non-linear visualization
 
 ---
