@@ -1,6 +1,5 @@
 # Machine Learning Projects
-
-A collection of applied machine learning notebooks produced as coursework for B.S. Data Science and Analytics at the University of Santo Tomas. Each notebook addresses a distinct problem domain and methodology, applied to real-world datasets including Philippine election data, IMDB reviews, Telco Churn records, and U.S. Census income data.
+> A collection of applied machine learning notebooks produced as coursework for B.S. Data Science and Analytics at the University of Santo Tomas. Each notebook addresses a distinct problem domain and methodology, applied to real-world datasets including Philippine election data, IMDB reviews, Telco Churn records, and U.S. Census income data.
 
 ---
 
