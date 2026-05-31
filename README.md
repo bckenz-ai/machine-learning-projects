@@ -6,6 +6,7 @@
 ## Notebooks
 
 ### Boosting and Ensemble Methods
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bckenz-ai/machine-learning-projects/blob/main/Boosting%20and%20Ensemble.ipynb)
 **File:** [Boosting and Ensemble.ipynb](https://github.com/bckenz-ai/machine-learning-projects/blob/main/Boosting%20and%20Ensemble.ipynb)
 
 Compares bagging (Random Forest) against boosting algorithms (AdaBoost, Gradient Boosting) on a financial classification task. Demonstrates that tree-based ensembles outperform traditional econometric approaches like Logistic Regression by capturing non-linear feature interactions, achieving over 86% accuracy. Analyzes how boosting models disproportionately focus on high-signal financial indicators (e.g., capital gains) through iterative error correction, rather than distributing weight across general demographic traits.
