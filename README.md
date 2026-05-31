@@ -7,6 +7,7 @@
 
 ### Boosting and Ensemble Methods
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bckenz-ai/machine-learning-projects/blob/main/Boosting%20and%20Ensemble.ipynb)
+
 **File:** [Boosting and Ensemble.ipynb](https://github.com/bckenz-ai/machine-learning-projects/blob/main/Boosting%20and%20Ensemble.ipynb)
 
 Compares bagging (Random Forest) against boosting algorithms (AdaBoost, Gradient Boosting) on a financial classification task. Demonstrates that tree-based ensembles outperform traditional econometric approaches like Logistic Regression by capturing non-linear feature interactions, achieving over 86% accuracy. Analyzes how boosting models disproportionately focus on high-signal financial indicators (e.g., capital gains) through iterative error correction, rather than distributing weight across general demographic traits.
@@ -18,6 +19,8 @@ Compares bagging (Random Forest) against boosting algorithms (AdaBoost, Gradient
 ---
 
 ### Dimensionality Reduction
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bckenz-ai/machine-learning-projects/blob/main/Dimensionality%20Reduction.ipynb)
+
 **File:** [Dimensionality Reduction.ipynb](https://github.com/bckenz-ai/machine-learning-projects/blob/main/Dimensionality%20Reduction.ipynb)
 
 Applies PCA, t-SNE, and UMAP to the Countries of the World 2023 dataset, analyzing development indicators including GDP, Birth Rate, and Infant Mortality. Evaluates the interpretability and visualization trade-offs of each technique. Concludes that PCA is best suited for explanation and reporting due to its linear, interpretable components, while t-SNE and UMAP are superior for discovering clusters and handling complex, non-linear, or overlapping data structures.
@@ -31,6 +34,8 @@ Applies PCA, t-SNE, and UMAP to the Countries of the World 2023 dataset, analyzi
 ---
 
 ### Imbalance Identification
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bckenz-ai/machine-learning-projects/blob/main/Imbalance%20Identification.ipynb)
+
 **File:** [Imbalance Identification.ipynb](https://github.com/bckenz-ai/machine-learning-projects/blob/main/Imbalance%20Identification.ipynb)
 
 Diagnoses and addresses class imbalance in the Telco Churn dataset. Through systematic evaluation of multiple diagnostic approaches, determines that the core issue is threshold calibration and prior skew rather than insufficient feature informativeness or sheer minority-class scarcity. Recommends and validates the `class_weight='balanced'` parameter, which upweights minority-class errors during training and significantly improves recall without degrading the model's underlying discrimination ability.
@@ -44,6 +49,8 @@ Diagnoses and addresses class imbalance in the Telco Churn dataset. Through syst
 ---
 
 ### Market Basket Analysis
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bckenz-ai/machine-learning-projects/blob/main/Market%20Basket%20Analysis.ipynb)
+
 **File:** [Market Basket Analysis.ipynb](https://github.com/bckenz-ai/machine-learning-projects/blob/main/Market%20Basket%20Analysis.ipynb)
 
 Applies the Apriori algorithm to discover association rules in ticket-voting behavior during the 2022 Philippine national elections, using province-level voting data as transaction records. Captures the dominance of the UniTeam coalition across regional blocs, driven by political endorsements and coordinated slate voting. Critically evaluates the limitations of province-level aggregation and argues that municipality-level analysis would surface finer regional subcultures and hidden minority voting patterns obscured by aggregation.
@@ -57,6 +64,8 @@ Applies the Apriori algorithm to discover association rules in ticket-voting beh
 ---
 
 ### Natural Language Processing
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bckenz-ai/machine-learning-projects/blob/main/Natural%20Language%20Processing.ipynb)
+
 **File:** [Natural Language Processing.ipynb](https://github.com/bckenz-ai/machine-learning-projects/blob/main/Natural%20Language%20Processing.ipynb)
 
 Builds an end-to-end NLP pipeline for sentiment analysis on movie reviews. Directly benchmarks NLTK's Porter Stemmer against spaCy's Lemmatizer, applies custom stop-word filtering to reduce noise, and vectorizes cleaned text into a TF-IDF matrix for feature extraction. Evaluates relationships between positive and negative reviews using a Cosine Similarity matrix to identify linguistic overlap and divergence across sentiment classes.
@@ -70,6 +79,8 @@ Builds an end-to-end NLP pipeline for sentiment analysis on movie reviews. Direc
 ---
 
 ### Regularization and Advanced Classification
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bckenz-ai/machine-learning-projects/blob/main/Regularization.ipynb)
+
 **File:** [Regularization.ipynb](https://github.com/bckenz-ai/machine-learning-projects/blob/main/Regularization.ipynb)
 
 Evaluates ten machine learning models on the task of predicting whether an individual earns over $50,000 annually, using U.S. Census demographic and employment data. Benchmarks Linear Probability Models and regularized Logistic Regressions (L1, L2) against tree-based algorithms. Gradient Boosting emerges as the top-performing model at 88% overall accuracy, framed as a self-correcting sequence of weak learners that iteratively focuses on previously misclassified high-income individuals.
@@ -83,6 +94,8 @@ Evaluates ten machine learning models on the task of predicting whether an indiv
 ---
 
 ### Text Clustering and Topic Modeling
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bckenz-ai/machine-learning-projects/blob/main/Text%20Clustering.ipynb)
+
 **File:** [Text Clustering.ipynb](https://github.com/bckenz-ai/machine-learning-projects/blob/main/Text%20Clustering.ipynb)
 
 Applies unsupervised NLP to 2,000 unlabelled IMDB movie reviews to discover latent thematic and emotional structures without ground-truth labels. Contrasts K-Means clustering with Latent Dirichlet Allocation (LDA). K-Means with K=2 successfully aligns with binary sentiment polarity (positive/negative), while LDA proves better suited for uncovering underlying narrative topics such as acting quality, genre conventions, and storytelling style.
